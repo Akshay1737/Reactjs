@@ -1,0 +1,625 @@
+/* Home Hero 1.0*/
+.hero_section{
+    position:relative;
+    background: url('../../src/assets/food-assets/hero/hero-1.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.hero_section .price_badge{
+    background: url(../../src/assets/food-assets/hero/price-badge-yellow.png);
+    background-size: cover;
+    position : absolute;
+    top: -20px;
+    right: 5px;
+    width: 180px;
+    height: 176px;
+    text-align: center;
+
+}
+.hero_section .price_text{
+ width: 100%;
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+}
+.hero_section .price_badge .h4_xs{
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 1;
+
+    
+  
+}
+.hero_section .price_badge .h4_lg{
+    font-size: 2.875rem;
+    font-weight: 600;
+    line-height: 1;
+
+}
+.hero_section .hero_txt h1{
+    font-family: var(--lilita-font);
+    color: white;
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+.hero_section .hero_txt h2{
+    font-family: var(--lilita-font);
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.hero_section .hero_txt p{
+    padding: 0 5%;
+}
+/*Home About 2.0 section 2*/
+
+.about_section {
+    padding-top: 80px;
+    padding-bottom: 300px;
+    background: url('../../src/assets/food-assets/about/about-1.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.about_section h2{
+    font-size: 1.2rem;
+
+}
+.about_section p{
+    color: var(--grey);
+    padding: 20px 30px;
+
+}
+.about_wrapper {
+    background: var(--yellow);
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.about_box .about_icon img{
+    max-width: 25%;
+}
+.about_box h4{
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.5008px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.about_box p{
+    padding: 0 20px;
+}
+ /*home menu 3.0*/
+ .menu_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+.menu_section .jj{
+
+    height: 100%;
+}
+.menu_section .card-img-top{
+    transition: all 0.3s ease-in-out    ;
+
+}
+.menu_section h2{
+    color: var(--light-red);
+    font-size: 3.5rem;
+}
+.menu_section .para{
+    color: var(--grey);
+    padding: 10px 100px;
+}
+.menu_section .item_rating i{
+    color: var(--yellow);
+    padding-right: 5px;
+}
+.menu_section .wishlist i{
+    color: var(--grey);
+    font-size: 20px;
+    cursor: pointer ;
+
+}
+.menu_section .wishlist i:hover{
+    color: var(--light-red);
+    font-size: 20px;
+    cursor: pointer ;
+    
+}
+.menu_section .card-title{
+    font-family: var(--oswald-font);
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+.menu_section .card-text{
+    color: var(--grey);
+    font-size: 0.875rem;
+    
+    height: 33%;
+    
+}
+.menu_section  .menu_price {
+    background-color: var(--bg-coffee);
+    display:inline-block;
+    padding: 7px 12px;
+    margin: auto;
+    border-radius: 4px;
+   
+
+}
+.menu_section .menu_price .h5{
+    font-size: 1rem;
+    color: var(--yellow);
+}
+.menu_section .add_to_cart .a{
+    background: var(--yellow);
+    display: inline-block;
+    font-size: 0.87rem;
+    font-weight: 700;
+    padding: 8px 5px ;
+    color: black;
+    text-decoration: none;
+    border-radius:4px ;
+    opacity: 0;
+    
+    transform: translateY(100px);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.menu_section .card:hover .topper {
+    transform: scale(1.1); /* 10% bigger */
+    transition: transform 0.3s ease-in-out;
+}
+.menu_section .card:hover .add_to_cart .a {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.menu_section .ads_box{
+    text-align: center;
+    padding: 50px 0px 80px 190px; /* Even padding for all sides */
+    border-radius: 6px;
+    width: 430px;
+    height: 100%;
+   
+    max-width: 660px;
+     
+   /* Fixed maximum width */
+    margin: 0 auto; /* Centers horizontally */
+    box-sizing: border-box; /* Ensures padding is included in width */
+
+}
+.menu_section .ads_img1{
+    background-image: url('../../src/assets/food-assets/menu/ads-1.jpg');
+    background-size: cover;
+}
+.menu_section .ads_img2{
+    background-image: url('../../src/assets/food-assets/menu/ads-2.jpg');
+    background-size: cover;
+}
+.menu_section .ads {
+  
+    width: 100%;
+    height: 100%;
+   
+   
+    /* Center horizontally */
+    /* Or whatever size you want */
+    /* Include padding in width calculation */
+      /* Ensure it can center */
+}
+
+.menu_section .ads_box h4{
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: var(--brown);
+}
+.menu_section .ads_box h5{
+    font-size: 2.375rem;
+    color: var(--brown);
+    
+}
+.menu_section .ads_box a{
+    margin-top: 15px;
+    font-size: 18px;
+    
+    
+}
+/* home promotion section 4*/
+.Promotion_section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--light-grey);
+    
+}
+.Promotion_section h2{
+    font-size: 2.5rem;
+    margin-top: 25px;
+   
+ 
+}
+.Promotion_section p{
+    font-size: 1.125rem; 
+   
+}
+.Promotion_section ul{
+    padding-left: 15px;
+}
+/*** BG parallax ***/
+.bg_parallax_scroll {
+    background-image: url('../../src/assets/food-assets/menu/bg-parallax.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.bg_parallax_scroll {
+    background: url('../assets/food-assets/parallax/bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+
+
+ 
+}
+/*Home shop 6.0*/
+.shop_section{
+    padding: 100px  0 0 ;
+    background: var(--yellow);
+}
+.shop_section h4{
+    font-size: 2.375rem;
+    font-weight: 400;
+    color: var(--bg-coffee);
+
+}
+.shop_section h2{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--bg-coffee);
+    width: 100%;
+    letter-spacing: -1px;
+   
+}
+.shop_section p{
+    font-size: 1.125rem;
+    padding-right: 10%;
+     color: var(--bg-coffee);
+     margin-bottom: 40px;
+
+}
+.shop_section .store{
+    max-width: 40%;
+
+}
+.shop_section .eshop{
+    text-align: center;
+    background-color: 2px red dotted;
+}
+.brands_section {
+  padding: 70px 0 40px;
+  background-color: var(--light-grey);
+  overflow: hidden;
+
+  
+}
+
+.brands_section .brand_img {
+  width: 180px;
+  height: auto;
+  text-align: center;
+}
+
+.brands_section .brand_img img {
+  max-height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Carousel container styling */
+.brand-carousel {
+  max-width: 100%;
+  padding: 0px 0;
+  background-color: #fff; /* optional background */
+}
+
+/* Ensure images are centered and scaled */
+.brand-carousel img {
+  max-width: 150px; /* adjust logo size */
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+    
+}
+
+/* Remove default Bootstrap captions & controls padding */
+.carousel-item {
+  text-align: center;
+
+     background-color: var(--light-grey);
+}
+
+/* Optional: Hide carousel controls if not needed */
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(50%); /* make arrows visible on white background */
+  background-color: transparent;
+}
+
+/* Optional: remove indicators if you don't want dots */
+.carousel-indicators {
+  display: none;
+}
+/*blog section 6*/
+.blog_section {
+    background: url("../../src/assets/food-assets/blog/reviews.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0 50px;
+    min-height: 500px;
+    
+    width: 100%;
+}
+
+.blog_section .user_img {
+ 
+    margin-top: 20px;
+    height: 420px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.blog_section .user_img img {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.blog_section .carousel .carousel-item {
+    background: transparent;
+}
+.blog_section .carousel-item .carousel-caption {
+    
+  
+    border-radius: 4px; /* Optional rounded corners */
+    padding: 10px; /* Space inside the box */
+    display: inline-block; /* Keeps background snug to text */
+}
+.blog_section .carousel-item .carousel-caption p{
+    
+    color: var(--white);
+    font-size: 1.125rem;
+    line-height: 1.45;
+    font-weight: 400;
+    padding: 0 12%;
+    margin: 25px;
+
+}
+.blog_section .carousel-item .carousel-caption h5{
+   
+    font-size: 1.125rem;
+    font-family: var(--lilita-font);
+     color: var(--white);
+     font-weight: 300;
+}
+.blog_section .carousel-item .carousel-caption .item_rating {
+    display: flex;       /* enable gap */
+    gap: 5px;            /* space between stars */
+    justify-content: center; /* center stars horizontally */
+}
+
+.blog_section .carousel-item .carousel-caption .item_rating .star {
+          /* star color */
+    font-size: 1.2rem;   /* adjust size */
+}
+
+/*home contact 8.0*/
+.contact_section{
+    background: url("../assets/food-assets/footer/banner-1.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact_section h4{
+    font-size: 2.375rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+}
+.contact_section h2{
+    font-size: 3rem;
+    margin-bottom: 8px;
+}
+.contact_section p{
+    width: 70%;
+    margin: 0  auto 30px;
+}
+
+.contact_section a{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/*home footer section*/
+footer{
+    padding-top: 80p;
+}
+footer h5{
+    color: var(--light-black);
+    line-height: 1;
+    margin-bottom: 25px;
+}
+footer p{
+    margin-bottom: 3px;
+    font-size: 1rem;
+
+}
+footer .calling{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--yellow);
+}
+
+footer ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    
+    cursor: pointer;
+    
+}
+footer .social-icons {
+  display: flex;
+  justify-content: center; /* centers icons horizontally */
+  gap: 25px;               /* spacing between icons */
+    /* just for testing */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+footer .footer-box a{
+    text-decoration: none;
+
+}
+footer .footer-box {
+    
+    height: 100%;
+}
+
+
+
+footer .copy_right {
+    border-top: 1px solid var(--light-grey-2);
+ margin-top: 60px;
+ padding: 20px 0;
+ text-decoration: none;
+ 
+}
+
+.copy_right ul li span {
+  color: var(--light-red);
+  font-weight: 600;
+  
+ 
+}
+.copy_right ul li  {
+  font-size: 1rem;
+  padding: 0 10px;
+  position: relative;
+}
+footer .copy_right ul li::after{
+    content: "|";
+    padding-left: 11px;
+    position: absolute
+    ;
+    top: -3px;
+    
+}
+footer .copy_right ul li:last-child:after{
+   display: none;
+}
+.copy_right a {
+  
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+
+
+/*media queries*/
+
+@media (max-width: 768px) {
+    /*Home Hero 1.0*/
+    .hero_section .hero_txt h1{
+        font-size: 2.5rem;
+    }
+    
+}
+/*section2 hero 2.0*/
+@media (max-width: 992px) {
+    .hero_section  h2{
+        font-size: 2.5rem;
+    }
+    .hero_section p{
+        padding: 20px 0;
+    }
+    .about_box p{
+        padding: 0;
+    }
+    /*Home Menu 3.0*/
+    .menu_section .para{
+        padding :10px 0px 10px 0px;
+    }
+    .menu_section .ads_box{
+        display: none;
+    }
+    /*home paralax 5.0*/
+    .bg_parallax_scroll{
+        background-attachment: scroll;
+        height: 500px;
+
+    }
+    .blog_section .carousel-item .carousel-caption p{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 1200px) {
+    /*home PRomotion 4.0*/
+    .Promotion_section h2{
+        font-size: 2.25rem;
+
+    }
+   
+}
+@media (max-width: 768px) {
+  .blog_section .carousel-caption {
+    position: static;
+    padding-top: 5px;
+    text-align: center;
+    
+  }
+  .blog_section .user_img {
+    height: 190px;
+  }
+  footer .copy_right ul li::after{
+    content: "|";
+    padding-left: 11px;
+    position: absolute
+    ;
+    top: -3px;
+      display: none;}
+
+  .blog_section .user_img img {
+    max-width: 130px; /* smaller image for mobile */
+  }
+}
+/* In your CSS file (e.g., Homestyle.css) */
+
+/* Mobile screens */
+@media (max-width: 576px) {
+  .carousel-item .col-mobile-hide {
+    display: none !important;
+  }
+}

@@ -1,6 +1,10 @@
 import React from 'react'
 import Layout from '../../Components/Layouts/Layout';
+<<<<<<< HEAD
 import Section1 from './section1';
+=======
+import Section1 from '../../Pages/Home/Section1.jsx';
+>>>>>>> c6289a6 (Added new data files to project)
 import Section2 from '../../Pages/Home/Section2.jsx'; // Assuming Section2 is a valid component
 import Section3 from '../../Pages/Home/Section3.jsx'; // Assuming Section3 is a valid component
 import Section4 from '../../Pages/Home/Section4.jsx'; // Assuming Section4 is a valid component 
